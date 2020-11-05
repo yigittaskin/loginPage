@@ -1,0 +1,14 @@
+{
+  "name": "udemy-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "YGT",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
